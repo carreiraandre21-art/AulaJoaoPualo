@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/txtExibirNome"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Nome:"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtExibirIdade"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="Idade:"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtExibirCidade"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Cidade:"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/txtExibirCurso"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:text="Curso:"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnVoltar"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Voltar" />
+
+</LinearLayout>
